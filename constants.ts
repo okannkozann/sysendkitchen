@@ -1,20 +1,6 @@
 
 import { NavItem, SlideImage, SlideVideo, Product, Reference, Dealership } from './types';
 
-// Import static assets so Vite handles their URLs during build
-import resim10 from './assets/resim10.png';
-import resim2 from './assets/resim2.png';
-import resim3 from './assets/resim3.png';
-import resim9 from './assets/resim9.png';
-import resim6 from './assets/resim6.png';
-import resim7 from './assets/resim7.png';
-import resim8 from './assets/resim8.png';
-import resim4 from './assets/resim4.png';
-
-import video1 from './assets/video1.mp4';
-import video2 from './assets/video2.mp4';
-import video3 from './assets/video3.mp4';
-
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Ana Sayfa', href: '#hero' },
@@ -34,25 +20,25 @@ export const HERO_BG = "https://images.unsplash.com/photo-1556910103-1c02745a30b
 export const SLIDE_IMAGES: SlideImage[] = [
   {
     id: 1,
-    url: resim10,
+    url: '/assets/resim10.png',
     alt: 'Pişirme Ocakları',
     title: '',
   },
   {
     id: 2,
-    url: resim2,
+    url: '/assets/resim2.png',
     alt: '',
     title: '',
   },
   {
     id: 3,
-    url: resim3,
+    url: '/assets/resim3.png',
     alt: '',
     title: '',
   },
   {
     id: 4,
-    url: resim9,
+    url: '/assets/resim9.png',
     alt: '',
     title: '',
   },
@@ -66,19 +52,19 @@ export const SLIDE_IMAGES: SlideImage[] = [
 export const SLIDE_VIDEOS: SlideVideo[] = [
   {
     id: 1,
-    url: video1,
+    url: '/assets/video1.mp4',
     poster: '',
     title: '',
   },
   {
     id: 2,
-    url: video2,
+    url: '/assets/video2.mp4',
     poster: '',
     title: '',
   },
   {
     id: 3,
-    url: video3,
+    url: '/assets/video3.mp4',
     poster: '',
     title: '',
   },
@@ -89,25 +75,25 @@ export const PRODUCTS: Product[] = [
     id: 1,
     title: "Konveksiyonel Fırın",
     category: "Pişirme",
-    image: resim6,
+    image: '/assets/resim6.png',
   },
   {
     id: 2,
     title: "Bulaşık Makineleri",
     category: "Yıkama",
-    image: resim7,
+    image: '/assets/resim7.png',
   },
   {
     id: 3,
     title: "Endüstriyel Ocaklar",
     category: "Pişirme",
-    image: resim8,
+    image: '/assets/resim8.png',
   },
   {
     id: 4,
     title: "Hazırlık Tezgahları",
     category: "Nötr Üniteler",
-    image: resim4,
+    image: '/assets/resim4.png',
   }
 ];
 

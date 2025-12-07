@@ -1,6 +1,5 @@
 import React from 'react';
 import { ArrowRight, CheckCircle2 } from 'lucide-react';
-import resim12 from '../assets/resim12.png';
 
 const Hero: React.FC = () => {
   const scrollToSection = (e: React.MouseEvent, href: string) => {
@@ -25,7 +24,7 @@ const Hero: React.FC = () => {
       <div className="absolute inset-0 z-0">
         {/* Background Image with Blur */}
         <img
-          src={resim12}
+          src="/assets/resim12.png"
           alt="Hero Background"
           className="absolute inset-0 w-full h-full object-cover blur-md"
         />
